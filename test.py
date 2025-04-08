@@ -63,7 +63,7 @@ def check_virustotal_scan_status(scan_id, api_key):
 # Main script
 if __name__ == "__main__":
     file_path = input("Enter Your File Name: ")  # File you want to check
-    #csv_file = "virushashes"  # csv file containing known hashes
+   
     api_key = "8d45b62b6fd3d5226cc716c37cb2fbda6e0fcc44c5d8561ca33e889c8badf533"  # VirusTotal API key
 
     # Step 1: Calculate file hash
